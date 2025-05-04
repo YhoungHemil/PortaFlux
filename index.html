@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portaflux</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Portaflux</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Portaflux</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-	link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">China Hemil</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Business Consultant, vistual assistant, Social media manager, Digital marketer, Product designer/developer, Sales tech engineer, Iot developer, embedeed system engineer, nuclear scientist, Web Developer, Front End Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">10</h1>
+                            <h5 class="mb-0">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of working experience in all field as above mentioned.</h3>
+                    </div>
+                    <p class="mb-4">
+                       Welcome! I’m a dynamic, results-oriented professional with a rare blend of skills spanning business consulting, digital marketing, product development, and advanced technology engineering. I specialize in helping brands,startups, and organizations scale smart, through a fusion of strategy, design, and innovation.
+                       
+                       </p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Afordable Prices</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High Quality services</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>On Time Project Delivery</p>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">30</h2>
+                    </div>
+                    <p class="mb-4">
+                                 Over the years, I’ve had the privilege of working with 10 incredible clients across various industries,from startups to tech firms and creative brands. Each project was more than just a task,it was a partnership built on trust, performance, and results.
+                                 
+                                 
+                                 
+                                 </p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">30</h2>
+                    </div>
+                    <p class="mb-0">
+                With over 30 completed projects,I’ve built a reputation for delivering high-quality, scalable, and impactful solutions that meet real-world needs. From tech development to business strategy, every project reflects my commitment to excellence, innovation, and client success
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    
+                    <p class="mb-4">
+       <b> Business Consulting & Social Media Management</b> – Crafting data-driven strategies that boost visibility, engagement, and ROI.
+        
+        <b>Digital Marketing & Sales Tech Engineering</b> – Designing and executing campaigns and systems that convert.<br/>
+        
+        <b>Product Design & Development</b> – From concept to creation, building products users love.<br/>
+        
+        <b>Web & Front-End Development</b> – Crafting sleek, responsive, and interactive web solutions.<br/>
+        
+        <b>IoT & Embedded Systems Engineering</b> – Developing intelligent, real-time systems that connect the physical and digital world.<br/>
+        
+        <b>Nuclear Science & Research</b> – Applying precision, safety, and analytical rigor to solve high-stakes problems.<br/>
+        
+        <b>Visual Assistance (Now exploring)</b> – Offering remote executive support and task automation with a tech-forward edge.
+        
+        <br/> With every project, I bring a commitment to <b>innovation,</b> <b>adaptability,</b> and <b>results.</b> I don't just build or consult,I <b>solve, optimize, and deliver.</b>
+        
+        <b>Ready to work with someone who brings breadth, depth, and unmatched versatility to the table? Let’s talk. I’m available for immediate opportunities.</b>
+        
+        </p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Business Consulting & Social Media Management </h6>
+                                    <h6 class="font-weight-bold">98%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Digital Marketing & Sales Tech Engineering</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Product Design & Development</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Web & Front-End Development</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">IoT & Embedded Systems Engineering</h6>
+                                    <h6 class="font-weight-bold">97%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Nuclear Science & research</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Visual Assistance (Now exploring)</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                            </div>
+                            <div class="progress">
+                            <div class="progress-bar bg-into" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Pillars</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Business consultant</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2021 - 2022</p>
+                                    <h6 class="mb-0">Dwin Technology Co.,Ltd</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Social media management</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2020 - 2021</p>
+                                    <h6 class="mb-0">Semtecx international service provider(SISP)</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Digital marketer and sale tech</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - 2020</p>
+                                    <h6 class="mb-0">semtecx international service provider(SISP)</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Product design and development</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2024 - 2025</p>
+                                    <h6 class="mb-0">Shopyz Inc</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>Web and frontend developer</h5>
+                                <hr class="text-primary my-2">
+                                <p class="text-primary mb-1">2019 - 2020</p>
+                                <h6 class="mb-0">Pendy Integration Service</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>IoT & Embedded Systems Engineering </h5>
+                                <hr class="text-primary my-2">
+                                <p class="text-primary mb-1">2017 - 2019</p>
+                                <h6 class="mb-0">Semtecx international service provider(SISP)</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                            <b>My Core Pillars of Excellence</b>
+                            <br/><i>I offer a rare and powerful blend of technical depth, strategic insight, and creative execution. These pillars form the foundation of everything I deliver,designed to help individuals, startups, and enterprises grow smarter, faster, and bolder.
+                            </i>
+                                <div class="col-sm-6">
+                                    <h5>1. Business Consulting & Strategy</h5>
+                                    <hr class="text-primary my-2">
+                                    
+                       
+                                    <i class="mb-0">I help brands and businesses identify opportunities, streamline operations, and build growth roadmaps. From early-stage ideation to scaling strategies, I offer solutions rooted in data, efficiency, and ROI.
+                                    
+                                   <br/> Highlights:
+                                    
+                                    Market positioning & digital transformation
+                                    
+                                    Business model optimization
+                                    
+                                    Competitive analysis & go-to-market strategies
+                                    </hi>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Social Media & Digital Marketing
+                                    </h5>
+                                    <hr class="text-primary my-2">
+                                    <i class="mb-0">Driving brand awareness, engagement, and sales through carefully crafted content and campaigns. I create marketing ecosystems that deliver real results,not just vanity metrics.
+                                    
+                                   <br/> Highlights:
+                                    
+                                    Paid ads (Google, Meta, LinkedIn), content creation, SEO
+                                    
+                                    Social media growth strategies
+                                    
+                                    Email marketing and automation funnels</i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Product Design & Development</h5>
+                                    <hr class="text-primary my-2">
+                                    <i class="mb-0">From idea to interface, I design and build human-centered digital products that users love. My process balances creativity with functionality and scalability.
+                                    
+                                   <br/> Highlights:
+                                    
+                                    UI/UX design using Figma, Adobe XD
+                                    
+                                    Wireframing, prototyping, and agile collaboration
+                                    
+                                    MVP development and product lifecycle strategy
+                                    </i>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Web & Front-End Development</h5>
+                                    <hr class="text-primary my-2">
+                                      <i class="mb-0">Modern, responsive websites and interfaces that are fast, scalable, and visually engaging. I develop with clean code and best practices to ensure optimal performance.
+                                      
+                                    <br/>  Highlights:
+                                      
+                                      HTML5, CSS3, JavaScript, React, Tailwind CSS
+                                      
+                                      Mobile-first design & cross-browser compatibility
+                                      
+                                      Performance optimization and SEO integration
+                                      </i>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>IoT & Embedded Systems Development</h5>
+                                <hr class="text-primary my-2">
+                                <i class="mb-0"> Creating smart solutions for smart devices. I specialize in programming microcontrollers, sensors, and hardware-software integration that bring real-world intelligence to life.
+                                
+                               <br/> Highlights:
+                                
+                                Arduino, ESP32, STM32, Raspberry Pi
+                                
+                                Real-time data processing and control
+                                
+                                Custom hardware prototyping and debugging</i>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>Sales Tech & Automation Engineering</h5>
+                                <hr class="text-primary my-2">
+                                <i class="mb-0">I design systems that scale sales, shorten pipelines, and boost revenue. Through CRM customization and automation tools, I enhance your sales efficiency.
+                                
+                              <br/>  Highlights:
+                                
+                                CRM integration (HubSpot, Salesforce)
+                                
+                                Sales pipeline optimization
+                                
+                                Automated lead nurturing & tracking systems
+                                </i>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>Nuclear Science & Advanced Research
+                                </h5>
+                                <hr class="text-primary my-2">
+                                <i class="mb-0">With a background in nuclear science, I bring analytical rigor, precision engineering, and a deep understanding of safety-critical systems to specialized projects.
+                                
+                              <br/>  Highlights:
+                                
+                                High-level research collaboration
+                                
+                                Radiation systems and atomic modeling
+                                
+                                Applied physics and energy solutions
+                                 </i>
+                                </div>
+                                <div class="col-sm-6">
+                                <h5>Visual Assistance (Emerging Focus)
+                                </h5>
+                                <hr class="text-primary my-2">
+                                <i class="mb-0">Now offering intelligent virtual/visual assistance services,leveraging my broad technical and strategic knowledge to support entrepreneurs, tech teams, and executives.
+                                
+                              <br/>  Highlights:
+                                
+                                Remote task execution and reporting
+                                
+                                Project coordination and tech support
+                                
+                                Document handling, automation, and assistance tools
+                                
+                                   </i>
+                                </div>
+                                <b>Why It Matters
+                                
+                                These core strengths are not just services,they're a toolkit for transformation. I don’t just contribute,I solve, build, scale, and empower. Whether you need a single service or an all-in-one solution, I deliver with focus, flexibility, and finesse.
+                                
+                                Let’s bring your next big idea to life.
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                        
+                            <i class="fable"><img class="img-seed" src="img/business.png" size="140px" width="140px"alt=""></i>
+                            
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3"> Business Consultant & social media management</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$200</span></h6>
+                            <span>I help businesses grow by offering expert consulting and strategic social media management that drives engagement, boosts brand visibility, and increases sales.
+                            
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                        
+                          <i class="fable"><img class="img-seed" src="img/sales.jpg" size="140px" width="140px"alt=""></i>
+                          
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Digital marketer & sales tech engineer</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$300</span></h6>
+                            <span>I help businesses grow by combining digital marketing expertise with cutting-edge sales tech solutions,driving leads, boosting conversions, and optimizing sales processes through smart, data-driven strategies.
+                            
+                            
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                      
+                      <i class="fable"><img class="img-seed" src="img/tech.png" size="140px" width="140px"alt=""></i>
+                      
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Product design and development</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$150</span></h6>
+                            <span>I help businesses turn ideas into powerful digital products through expert product design and development,crafting intuitive user experiences and building scalable solutions from concept to launch.
+                            
+                            
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                        <i class="fable"><img class="img-seed" src="img/web.jpg" size="140px" width="140px"alt=""></i>
+                        
+                           </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web and frontend developer</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$400</span></h6>
+                            <span>I build fast, responsive, and visually stunning websites that deliver seamless user experiences. Whether you need a portfolio, business site, or custom web app, I turn ideas into clean, functional code.
+                            
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Projects</li>
+                         </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <b>Social Media Management</b>
+                            
+                            <p class="fs-5 fst-italic">We struggled with visibility until he stepped in. Within 60 days, our engagement doubled and we started seeing consistent inbound leads. His content strategy and timing are just spot-on. He doesn't just manage social media,he grows communities.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Maria</h5>
+                            
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <b>Digital Marketing</b>
+                            <p class="fs-5 fst-italic">Our ROI from digital campaigns skyrocketed after he optimized our ad funnels and email automation. He understands both the creative and technical sides of marketing, which made all the difference for our product launch.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Jake</h5>
+                            
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div>
+                            </div>
+                            <b>IoT System Development</b>
+                            
+                            <p class="fs-5 fst-italic">We needed a custom IoT solution for our smart agriculture system, and he delivered a powerful, real-time setup that blew away our expectations. Precise, scalable, and incredibly well-documented,he’s an engineer who truly understands innovation.</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Brayan</h5>
+                            
+                        </div>
+                        <div class="testimonial-item text-center">
+                        <div class="position-relative mb-5">
+                        <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-4.jpg" alt="">
+                        <div class="testimonial-icon">
+                        <i class="fa fa-quote-left text-primary"></i>
+                        </div>
+                        </div>
+                        <b>Sales Tech Engineer</b>
+                        <p class="fs-5 fst-italic">He completely transformed our outdated sales process. From CRM integration to full automation, our sales team is now faster, smarter, and closing 3x more deals. His work has directly impacted our bottom line.</p>
+                        <hr class="w-25 mx-auto">
+                        <h5>Fatima</h5>
+                        
+                        </div>
+                        <div class="testimonial-item text-center">
+                        <div class="position-relative mb-5">
+                        <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-5.jpg" alt="">
+                        <div class="testimonial-icon">
+                        <i class="fa fa-quote-left text-primary"></i>
+                        </div>
+                        </div>
+                        <b>Product Design & Development</b>
+                        <p class="fs-5 fst-italic">From initial concept to user-ready product, he handled every phase with creativity and discipline. His eye for detail and deep understanding of user behavior gave our app an edge we didn’t expect. Our MVP became a hit.</p>
+                        <hr class="w-25 mx-auto">
+                        <h5>Liam</h5>
+                        
+                        </div>
+                        <div class="testimonial-item text-center">
+                        <div class="position-relative mb-5">
+                        <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-6.jpg" alt="">
+                        <div class="testimonial-icon">
+                        <i class="fa fa-quote-left text-primary"></i>
+                        </div>
+                        </div>
+                        <b>Web & Front-End Development</b>
+                        
+                        <p class="fs-5 fst-italic">Our site was slow and outdated until he rebuilt it from scratch. Now it’s blazing fast, beautifully responsive, and converts visitors like never before. He blends technical skill with clean design thinking effortlessly.</p>
+                        <hr class="w-25 mx-auto">
+                        <h5>Angela</h5>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+   <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+23409025234187</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">chinahemil@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://x.com/YhoungHemil"><i class="fab fa-twitter"></i></a>
+                        
+                        
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/HemilPosha"><i class="fab fa-facebook-f"></i></a>
+                        
+                        <a class="btn btn-square btn-primary me-2" href="https://youtube.com/@shopyzstore"><i class="fab fa-youtube"></i></a>
+                        
+                        
+                        <a class="btn btn-square btn-primary me-2" href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=solomon-eze-238b83363"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-md-6 text-center text-md-end">
+                        
+                        alright reserved &copy;<a class="border-bottom text-secondary" href="">Portaflux</a>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
